@@ -26,7 +26,7 @@ public class VoiceToImage {
 
     public static void main(String[] args) {
         // Initialize the OpenAI client
-        openai = new Client("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");
+        openai = new Client("apikey");
 
         // Load the Stable Diffusion model
         stableDiffusionBundle = SavedModelBundle.load("path/to/stableDiffusionModel", "serve");
