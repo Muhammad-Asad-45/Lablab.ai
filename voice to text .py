@@ -1,22 +1,22 @@
-pip install -U openai-whisper
+# pip install -U openai-whisper
 
-pip install git+https://github.com/openai/whisper.git
+# pip install git+https://github.com/openai/whisper.git
 
-pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
+# pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
 
-scoop install ffmpeg
+# scoop install ffmpeg
 
-pip install setuptools-rust
+# pip install setuptools-rust
 
-whisper audio.flac audio.mp3 audio.wav --model medium
+# whisper audio.flac audio.mp3 audio.wav --model medium
 
-whisper japanese.wav --language Japanese
+# whisper japanese.wav --language Japanese
 
-whisper --help
+# whisper --help
 
-import whisper
+# import whisper
 
-model = whisper.load_model("base")
-result = model.transcribe("audio.mp3")
-print(result["text"])
+# model = whisper.load_model("base")
+# result = model.transcribe("audio.mp3")
+# print(result["text"])
 
