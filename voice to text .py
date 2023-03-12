@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # !pip install -q gradio
 # !pip install -q pyChatGPT
 # !pip install -q git+https://github.com/openai/whisper.git
@@ -129,6 +130,29 @@ with torch.autocast('cuda'):
     image = pipe(prompt)['sample'][0]
 
 import matplotlib.pyplot as plt
+=======
+# pip install -U openai-whisper
+
+# pip install git+https://github.com/openai/whisper.git
+
+# pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
+
+# scoop install ffmpeg
+
+# pip install setuptools-rust
+
+# whisper audio.flac audio.mp3 audio.wav --model medium
+
+# whisper japanese.wav --language Japanese
+
+# whisper --help
+
+# import whisper
+
+# model = whisper.load_model("base")
+# result = model.transcribe("audio.mp3")
+# print(result["text"])
+>>>>>>> 936928720d85671e112556dbdc0b61d96cd398e1
 
 plt.imshow(image)
 plt.title(prompt)
